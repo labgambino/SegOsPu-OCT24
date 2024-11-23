@@ -1,0 +1,45 @@
+table {
+    position: absolute;
+    top: 6px;
+    left: 60px;
+    background: white;
+    font-size: 12px;
+    
+}
+
+
+th{
+    background: #d94a38; 
+    color: #fff;
+    padding: 10px 20px;
+}
+
+td{
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding: 3px 20px 3px;
+}
+
+tbody tr:nth-child(even){
+    background: #eee;
+}
+
+tfoot td{
+    background: #666;
+    color: #fff;
+padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 400px 20px 400px 20px;
+    font-size: 20px;
+    margin: 1px;
+}
+
+caption{
+     background: #666;
+     color: #fff;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 100px 100px 100px 100px;
+    font-size: 13px;
+}
